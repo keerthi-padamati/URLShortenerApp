@@ -17,6 +17,8 @@ class URLShortnerGUI
       for(int i = 0;i<CODE_LENGTH;i++)
          sb.append(CHAR_POOL.charAt(random.nextInt(CHAR_POOL.length())));
          return sb.toString();
+   }
+
 
 
 
