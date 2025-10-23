@@ -19,6 +19,11 @@ class URLShortnerGUI
          return sb.toString();
    }
 
+   public URLShortenerGUI() {
+        JFrame frame = new JFrame("URL Shortener");
+        frame.setSize(500, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
 
 
