@@ -10,6 +10,13 @@ class URLShortnerGUI
     private static final String CHAR_POOL = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final int CODE_LENGTH = 6; // you replace the output url size heres
     private Random random = new Random();
-  
+
+
+   private generateShortcode(){
+      StringBuilder sb = new StringBuilder();
+      for(int i = 0;i<CODE_LENGTH;i++)
+
+         return sb.toString();
+
 
 
