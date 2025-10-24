@@ -25,6 +25,11 @@ class URLShortnerGUI
         JFrame frame = new JFrame("URL Shortener");
         frame.setSize(500, 200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      
+        JTextField urlField = new JTextField(30);
+        JButton shortenBtn = new JButton("Shorten");
+        JLabel resultLabel = new JLabel("");
+
 
 
 
