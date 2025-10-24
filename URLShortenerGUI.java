@@ -30,6 +30,21 @@ class URLShortnerGUI
         JButton shortenBtn = new JButton("Shorten");
         JLabel resultLabel = new JLabel("");
 
+        shortenBtn.addActionListener(e -> {
+        String longURL = urlField.getText();
+        if (longURL.isEmpty())
+        {
+            resultLabel.setText("Please enter a URL.");
+            return;
+         }
+
+         String shortCode;
+         do
+         {
+            shortCode = generateShortCode();
+         } while (shortToUrl.containsKey(shortCode));
+
+
 
 
 
