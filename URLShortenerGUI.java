@@ -44,6 +44,24 @@ class URLShortnerGUI
             shortCode = generateShortCode();
          } while (shortToUrl.containsKey(shortCode));
 
+          shortToUrl.put(shortCode, longURL);
+            resultLabel.setText("<html>Short URL: <a href='#'>" + shortCode + "</a></html>");
+
+            // Make the label clickable
+         resultLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+         resultLabel.addMouseListener(new MouseAdapter() {
+         public void mouseClicked(MouseEvent me) {
+         try
+            {
+               Desktop.getDesktop().browse(new URI(longURL));
+               }
+         catch (Exception ex)
+            {
+               ex.printStackTrace();
+            }
+         }
+   });
+});
 
 
 
