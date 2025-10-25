@@ -71,6 +71,15 @@ class URLShortnerGUI
     }
 
 
+public static void main(String[] args)
+   {
+   new URLShortenerGUI();
+   }
+}
+
+
+
+
 
 
 
