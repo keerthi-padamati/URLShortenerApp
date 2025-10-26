@@ -16,4 +16,4 @@
 
 ## Installation
 
-Clone the Repository :     git clone https://github.com/keerthi-padamati/URLShortenerGUI.git
+Clone the Repository :     git clone https://github.com/keerthi-padamati/URLShortenerApp.git
