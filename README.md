@@ -16,8 +16,10 @@
 
 ## Installation
 
-Clone the Repository :     git clone https://github.com/keerthi-padamati/URLShortenerApp.git
-
+Clone the Repository :
+```bash
+git clone https://github.com/keerthi-padamati/URLShortenerApp.git
+```
 ## Navigate to the project folder:  cd URLShortenerGUI
 
 Compile the Java files:  javac URLShortenerGUI.java
