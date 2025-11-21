@@ -26,7 +26,7 @@ git clone https://github.com/keerthi-padamati/URLShortenerApp.git
 - Run the application:  java URLShortenerGUI
 
 
-Usage
+## Usage
 
 - Launch the application.
 - Enter a long URL in the text field.
