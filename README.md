@@ -11,7 +11,7 @@
 - Opens the original URL in the default browser when clicked.  
 - Lightweight and easy-to-use.  
 
-====
+---
 
 ## Installation
 
