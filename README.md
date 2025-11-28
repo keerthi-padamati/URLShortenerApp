@@ -20,9 +20,7 @@
 git clone https://github.com/keerthi-padamati/URLShortenerApp.git
 ```
 - Navigate to the project folder:  cd URLShortenerGUI
-
 - Compile the Java files:  javac URLShortenerGUI.java
-
 - Run the application:  java URLShortenerGUI
 
 
